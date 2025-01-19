@@ -1,0 +1,19 @@
+name: Check
+
+# Trigger
+on:
+  workflow_dispatch:
+
+# Define Jobs
+jobs:
+  # job - build
+  build:
+    # Runner
+    runs-on: ubuntu-lastest
+    
+    # List Steps
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run 
+        run: echo Hello, World
