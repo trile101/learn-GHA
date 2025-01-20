@@ -16,9 +16,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run 
-        run: echo Hello, World
-
-      - name: Run multiple line
-        run: |
-          echo "First output1"
-          echo "Second output2"
+        run: echo "prod_account_id=${{vars.ACCOUNT_MAPPING}}"
