@@ -19,4 +19,4 @@ jobs:
         run: echo "prod_account_id=${{vars.ACCOUNT_MAPPING}}"
 
       - name: Run 12
-        run: echo "prod_account_id=${{env.ACCOUNT_MAPPING}}"
+        run: echo "prod_account_id=${{env.AACCOUNT_MAPPING}}"
