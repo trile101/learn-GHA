@@ -9,7 +9,7 @@ jobs:
   # job - build
   build:
     # Runner
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     
     # List Steps
     steps:
